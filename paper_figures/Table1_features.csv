@@ -1,0 +1,15 @@
+Seismic indicator,Parameter,Computation method,# features,Remarks
+Non-parametric,b-value,Max-likelihood / Least square,2,"b_lik, b_lsq"
+Non-parametric,a-value,Max-likelihood / Least square,2,"a_lik, a_lsq"
+Non-parametric,dE^(1/2),-,1,Rate of square root of seismic energy
+Non-parametric,T_Days,-,1,Time of n events
+Non-parametric,M_mean,-,1,Mean magnitude
+Non-parametric,z-value,-,1,Seismic rate changes
+Non-parametric,x6,-,1,Maximum magnitude in last 7 days
+Non-parametric,mu,-,1,Mean time between characteristic events
+Parametric,x7,Max-likelihood / Least square,2,Probability of an earthquake of M>=6.0
+Parametric,eta,Max-likelihood / Least square,2,Deviation from Gutenberg-Richter law
+Parametric,sigma_b,Max-likelihood / Least square,2,Standard deviation of b-value
+Parametric,M_def,Max-likelihood / Least square,2,Magnitude deficit
+Parametric,T_rec,Max-likelihood / Least square,42,"Recurrence time, M0 = 4.0…6.0 step 0.1"
+Parametric,c-value,-,1,Coefficient of variation of mean time between characteristic events

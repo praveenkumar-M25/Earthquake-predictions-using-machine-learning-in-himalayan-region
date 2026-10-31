@@ -1,0 +1,9 @@
+Window,Threshold,Set,Top-10 features (rank order),# Confirmed,# Tentative,# Rejected
+7,4.0,train,Energy > T_Rec_lsq_4.1 > x6 > T_Rec_lsq_4.0 > T_Rec_lsq_4.3 > T_Rec_lsq_4.2 > T_Rec_lsq_4.4 > T_Rec_lsq_4.5 > T_Rec_lik_4.0 > Mean_Mag,12,16,33
+7,4.0,test,Energy > x6 > T_Rec_lsq_4.3 > T_Rec_lsq_4.2 > T_Rec_lsq_4.1 > T_Rec_lsq_4.0 > T_Rec_lsq_4.4 > T_Rec_lsq_4.5 > Mean_Mag > T_Rec_lik_4.0,16,18,27
+7,4.5,train,Energy > x6 > Mean_Mag > T_Rec_lsq_4.0 > T_Rec_lsq_4.2 > T_Rec_lsq_4.3 > T_Rec_lsq_4.1 > T_Rec_lsq_4.4 > std_b_lsq > a_lsq,24,22,15
+7,4.5,test,Energy > x6 > T_Rec_lsq_4.0 > T_Rec_lsq_4.1 > T_Rec_lik_4.0 > T_Rec_lik_4.1 > Mean_Mag > T_Rec_lsq_4.2 > T_Rec_lsq_4.3 > T_Rec_lik_4.2,23,16,22
+7,5.0,train,x6 > Energy > T_Rec_lsq_5.6 > T_Rec_lsq_5.5 > T_Rec_lsq_5.8 > T_Rec_lsq_5.9 > T_Rec_lsq_5.7 > T_Rec_lsq_5.4 > x7_mlk > x7_lsq,27,17,17
+7,5.0,test,x6 > Energy > T_Rec_lsq_5.9 > T_Rec_lsq_6.0 > T_Rec_lsq_5.2 > T_Rec_lsq_5.8 > T_Rec_lsq_5.7 > T_Days > T_Rec_lsq_5.4 > x7_lsq,19,36,6
+7,5.5,train,Energy > x6 > Z_Value > T_Days > T_Rec_lsq_4.0 > Mean_Mag > T_Rec_lsq_4.1 > M_def_lsq > T_Rec_lik_4.0 > a_lsq,14,29,18
+7,5.5,test,x6 > Energy > Mean_Mag > T_Rec_lsq_4.0 > T_Days > Z_Value > T_Rec_lsq_4.1 > T_Rec_lsq_5.2 > T_Rec_lsq_5.8 > M_def_lsq,14,17,30
